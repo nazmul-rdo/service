@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.services {
+  background: url(../src/assets/services.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.works {
+  background: url(../src/assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.why {
+  background: url(../src/assets/why_us.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  background: url(../src/assets/hero-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* accordion design  */
+.accordion-item:not(:last-child) {
+  border-bottom-width: 1px;
+}
+
+.accordion-item.open .accordion-icon .fa-chevron-up {
+  display: block;
+}
+
+.accordion-item.open .accordion-icon .fa-chevron-down {
+  display: none;
+}
